@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 0;
+    line-height: 1.1;
+}
+
+a,
+a:active,
+a:visited,
+a:hover {
+    text-decoration: none;
+}
+
+.btn {
+    margin: 1rem;
+    padding: 0.7rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.starter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.pop {
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.row {
+    display: block;
+}
+
+.game {
+    border: 1px solid black;
+}
+
+.active {
+    border: 1px solid goldenrod;
+    background-color: aliceblue;
+    color: black;
+    box-shadow: 2px 2px gold;
+    cursor: pointer;
+}
+
+.scoreBoard {
+    margin: 2rem;
+    font-size: 1rem;
+    padding: 0.3rem;
+    font-weight: 500;
+}
+
+.rules {
+    display: block;
+    text-align: left;
+}
+
+ul {
+    display: block;
+    text-align: left;
+}
