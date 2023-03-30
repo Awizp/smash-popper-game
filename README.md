@@ -5,4 +5,4 @@
 4. Player life and score added to lose the game while player when mistakes
 
 # Visit the web app
-https://awizp.github.io/
+https://awizp.github.io/smash-popper-game/
